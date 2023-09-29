@@ -1,0 +1,10 @@
+export { default as Home } from "./home/Home";
+export { default as News } from "./news/News";
+export { default as Sports } from "./sports/Sports";
+export { default as Staff } from "./staff/Staff";
+export { default as Login } from "./login/Login";
+export { default as Register } from "./register/Register";
+export { default as Business } from "./business/Business";
+export { default as Subscribe } from "./subscribe/Subscribe";
+export { default as Reset } from "./reset/Reset";
+export { default as ConfirmReset } from "./reset/ConfirmReset";
