@@ -1,31 +1,21 @@
 import { createBrowserRouter } from "react-router-dom";
 import App from "../layout/App";
-import {
-  Business,
-  ConfirmReset,
-  Login,
-  News,
-  Register,
-  Reset,
-  Sports,
-  Staff,
-  Subscribe,
-} from "../../pages";
+import * as Pages from "../../pages";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
     children: [
-      { path: "news", element: <News /> },
-      { path: "sports", element: <Sports /> },
-      { path: "staff", element: <Staff /> },
-      { path: "login", element: <Login /> },
-      { path: "register", element: <Register /> },
-      { path: "reset", element: <Reset /> },
-      { path: "resetConf", element: <ConfirmReset /> },
-      { path: "business", element: <Business /> },
-      { path: "subscribe", element: <Subscribe /> },
+      { path: "news", element: <Pages.News /> },
+      { path: "sports", element: <Pages.Sports /> },
+      { path: "staff", element: <Pages.Staff /> },
+      { path: "login", element: <Pages.Login /> },
+      { path: "register", element: <Pages.Register /> },
+      { path: "reset", element: <Pages.Reset /> },
+      { path: "resetConf", element: <Pages.ConfirmReset /> },
+      { path: "business", element: <Pages.Business /> },
+      { path: "subscribe", element: <Pages.Subscribe /> },
     ],
   },
 ]);
