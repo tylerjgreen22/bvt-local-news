@@ -18,8 +18,8 @@ const theme = extendTheme({
     },
   },
   fonts: {
-    heading: `'roboto-condensed-700', sans-serrif`,
-    body: `'roboto-condensed-400', sans-serrif`,
+    heading: `'roboto-condensed-700', sans-serif`,
+    body: `'roboto-condensed-400', sans-serif`,
   },
   colors: {
     main: "rgba(102, 106, 134, 0.2)",
